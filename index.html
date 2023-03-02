@@ -4,11 +4,11 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<title>SPOC Fine Submission</title>
+		<link rel="icon" href="./images/spoc logo.png">
 	</head>
 	<body>
 		<form id="form">
-			<fieldset>
 				<legend>
           <img src="./images/spoc logo.png" alt="spoc water polo club logo" width="10%" height="auto">
           SPOC Fine Submission Form
@@ -43,7 +43,6 @@
 					<input type="text" id="witness" name="Witness" />
 				</div>
 				<button type="submit" id="submit">Submit Fine</button>
-			</fieldset>
 		</form>
 	</body>
 	<style>
@@ -63,17 +62,14 @@
 		form {
 			display: flex;
 			justify-content: center;
+			flex-direction: column;
       background: #071B35;
 			margin-left: auto;
 			margin-right: auto;
 			border-radius: 8px;
+			padding: 2% 2% 2% 2%;
 		}
-		fieldset {
-			display: flex;
-			flex-direction: column;
-			border-radius: 7px;
-			border-width: 0px;
-		}
+
 		.form-element {
 			display: flex;
 			justify-content: space-between;
@@ -86,7 +82,6 @@
 
 		button {
 			margin-top: 5%;
-			padding: 2%;
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 			font-size: large;
 			border-radius: 7px;
